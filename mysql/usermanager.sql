@@ -1,0 +1,1 @@
+CREATE DATABASE `UserManager` DEFAULT CHARACTER SET utf8;grant all on UserManager.* to 'um'@'%' identified by '123456';grant all on UserManager.* to 'um'@'localhost' identified by '123456';flush privileges;
